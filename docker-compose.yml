@@ -22,7 +22,7 @@ services:
       - backend-smart-garden-golang-net
 
   app:
-    image: kangstek/backend-smart-garden-golang:beta-0.0.1
+    image: kangstek/backend-smart-garden-golang:beta-0.0.2
     container_name: backend-smart-garden-golang-app
 
     ports:
