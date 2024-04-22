@@ -3,7 +3,7 @@ name: backend-smart-garden-golang-production
 services:
 
   app:
-    image: kangstek/backend-smart-garden-golang:beta-0.0.10
+    image: kangstek/backend-smart-garden-golang:beta-0.0.11
     container_name: backend-smart-garden-golang-app
 
     ports:
